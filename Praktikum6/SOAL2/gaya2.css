@@ -1,0 +1,149 @@
+body {
+    background-image: url(background.jpg);   
+}
+.h1 {
+    position: fixed;
+    left: 500px;
+}
+.A1 {
+    border: solid;
+    width: 300px;
+    height: 600px;
+    border-color: rgb(200, 214, 229,0.8);
+    background: rgb(200, 214, 229,0.8);
+    position: fixed;
+    left: 355px;
+}
+
+.A2 {
+    border: solid;
+    width: 300px;
+    height: 600px;
+    border-color: rgb(220, 221, 225,0.8);
+    background: rgb(220, 221, 225,0.8);
+    position: fixed;
+    right: 357px;
+}
+
+.LX16 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #050505;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.LX17 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #030303;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.LX18 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #030303;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.LX19 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #070707;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.LX20 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #070707;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.LX21 {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #020202;
+    color: #fff;
+    font-size: 20px;
+    color: black;
+}
+
+.BTN1 {
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background: none;
+    margin: 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.BTN1:hover::after {
+    left: 0;
+}
+.BTN1::after {
+    content: "";
+    z-index: -1;
+    border-radius: 20px;
+    top: 0;
+    left: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: #2ed573;
+}
+
+.BTN2  {
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background: none;
+    margin: 0 100px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.BTN2:hover::after {
+    left: 0;
+}
+
+.BTN2::after {
+    content: "";
+    z-index: -1;
+    border-radius: 20px;
+    top: 0;
+    left: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: #38ada9;
+}

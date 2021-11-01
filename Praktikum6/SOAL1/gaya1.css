@@ -1,0 +1,21 @@
+h6 {
+    border: solid 2px;
+    border-color: black;
+    padding: 3px;
+}
+
+.A1 {
+    border: solid 1px;
+    border-color: black;
+    padding: 2px;
+
+}
+
+.kanan {
+    border: solid 1px;
+    width: 90px;
+    height: 130px;
+    top: 9%;
+    right: 1%;
+    position: fixed;
+}
